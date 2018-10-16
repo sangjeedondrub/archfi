@@ -1,0 +1,94 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : English
+# translator : matmoul (pseudo, name or e-mail.)
+# notes      : misc text...
+
+
+locale=zh_TW.UTF-8
+#font=
+
+
+txtexit="退出"
+txtback="返回"
+txtignore="忽略"
+
+txtselectserver="選擇軟件源泉服務器:"
+
+txtmainmenu="主目錄"
+txtlanguage="語言"
+txtsetkeymap="設定鍵盤布局"
+txteditor="編輯器"
+txtdiskpartmenu="磁盤分區"
+txtselectpartsmenu="選擇分區並安裝"
+txthelp="幫助"
+txtchangelog="變更記錄"
+txtreboot="重啓"
+
+txtautoparts="自動分區"
+txteditparts="編輯分區"
+
+txtautopartsconfirm="選擇設備: %1\n\n所有文件將被清除! \n\n選擇繼續嗎?"
+
+txtautopartclear="清除所有分區數據"
+txtautopartcreate="創建 %1 分區Create %1"
+txthybridpartcreate="設定混合 MBR"
+txtautopartsettype="Set %1 分區類型"
+
+txtselectdevice="選擇 %1 設備:"
+txtselecteddevices="被選擇的設備: "
+
+txtformatmountmenu="格式化並挂載"
+txtformatdevices="格式化所有設備"
+txtformatdevice="格式化設備"
+txtmount="挂載"
+txtunmount="取消挂載"
+txtmountdesc="安裝並配置"
+
+txtformatdeviceconfirm="警告，選擇設備上的所有數據將會被清除！\n格式化設備 ?"
+
+txtselectpartformat="爲 %1 選擇分區類型 :"
+txtformatingpart="將 %1 分區格式化爲"
+txtcreateluksdevice="創建 luks 設備 :"
+txtopenluksdevice="打開 luks 設備 :"
+txtluksdevicecreated="luks 設備被創建 !"
+
+txtinstallmenu="安裝目錄"
+
+txtarchinstallmenu="Arch 安裝目錄"
+txtrungrubmakeconfig="運行 grub-mkconfig ?"
+
+txteditmirrorlist="編輯 mirrorlist"
+txtinstallarchlinux="安裝 Arch Linux"
+txtconfigarchlinux="配置 Arch Linux"
+
+txtsethostname="設置電腦的名稱"
+txtsetfont="設置字體"
+txtsetlocale="設置區域"
+txtsettime="設置時間"
+txtsetrootpassword="設置 root 密碼"
+
+txtuseutcclock="使用 UTC 硬件始終"
+
+txtoptional="可選"
+txtrecommandeasyinst="推薦的便捷安裝"
+txtset="設置 %1"
+txtgenerate="生成 %1"
+txtedit="編譯 %1"
+txtinstall="編輯 %1"
+txtenable="啓用 %1"
+
+txtgrubluksdetected="加密的root分區 !\n\n 向 /etc/default/grub增加 cryptdevice= 到 GRUB_CMDLINE_LINUX 嗎?"
+
+
+txtpressanykey="俺任意鍵繼續"
+
+txtinstallosprober="如果你想使用多系統的，os-prober 是一個很好的方案.\n需要安裝 os-prober嗎 ?"
+txtefibootmgr="對于efi模式的電腦而言，efibootmgr 是必須的"
+
+txtarchdidesc="完整桌面系統的安裝腳本"
+txtinstallarchdi="Arch Linux Desktop Install (archdi) 是幫助你安裝完整的工作所需的第二個腳本.\n\n您可以只啓動腳本或安裝它. 在下一個菜單中進行選擇.\n\nArch Linux 桌面安裝需要兩個依賴 : wget and libnewt.\n\np需要運行 acstrap wget libnewt，來安裝這些依賴嗎?"
+txtarchdiinstallandlaunch="安裝並運行archdi"
+txtarchdiinstall="安裝 archdi"
+txtarchdilaunch="啓動 archdi"

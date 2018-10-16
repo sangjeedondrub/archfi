@@ -88,6 +88,8 @@ chooselanguage(){
   options+=("Russian" "(By Anonymous_Prodject)")
   options+=("Spanish" "(By Mystogab)")
   options+=("Turkish" "(By c0b41)")
+  options+=("ChineseSimplified" "(By sangjeedondrub)")
+  options+=("ChinseTraditional" "(By sangjeedondrub)")
   sel=$(whiptail --backtitle "$apptitle" --title "$txtlanguage" --menu "" 0 0 0 \
     "${options[@]}" \
     3>&1 1>&2 2>&3)
